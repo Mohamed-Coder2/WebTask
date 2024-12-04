@@ -10,7 +10,7 @@ form.addEventListener('submit', function(event) {
   const email = document.getElementById('input2').value;
 
   // Show an alert with the values
-  alert(`Name: ${name}\nEmail: ${email}`);
+  alert(`Thingy1: ${name}\nThingy2: ${email}`);
 
   document.getElementById('li1').textContent = `${name}`;
   document.getElementById('li2').textContent = `${email}`;
